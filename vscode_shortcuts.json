@@ -145,5 +145,13 @@
         "key": "shift+cmd+k",
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+l",
+        "command": "workbench.action.gotoLine"
+    },
+    {
+        "key": "ctrl+g",
+        "command": "-workbench.action.gotoLine"
     }
 ]
