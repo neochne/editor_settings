@@ -153,5 +153,29 @@
     {
         "key": "ctrl+g",
         "command": "-workbench.action.gotoLine"
+    },
+    {
+        "key": "cmd+.",
+        "command": "editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+cmd+[",
+        "command": "-editor.fold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "alt+cmd+\\",
+        "command": "editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+cmd+\\",
+        "command": "-editor.action.jumpToBracket",
+        "when": "editorTextFocus"
+    },
+    {
+        "key": "shift+alt+cmd+\\",
+        "command": "editor.action.selectToBracket"
     }
 ]
